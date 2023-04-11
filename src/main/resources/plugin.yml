@@ -2,3 +2,7 @@ name: Permissions
 version: '${project.version}'
 main: com.foxdev.permissions.Permissions
 api-version: 1.18
+commands:
+  permission:
+    description: Permissions
+    permission: perm.admin
